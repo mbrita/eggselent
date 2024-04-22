@@ -1,0 +1,95 @@
+.homePageBody{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homePageWrapper {
+  max-width: 1440px;
+  height: 100%;
+  color: #faa5de;
+  text-align: center;
+}
+.homePageTitle {
+  margin: 40px 0 40px 0px;
+  font-size: 30px;
+}
+.sliderHomePage {
+  display: flex;
+  justify-content: center;
+}
+.deliveryCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  flex-direction: rows;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.deliveryCard {
+  margin: 20px;
+  height: 340px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  font-size: 20px;
+  color: #fcf263;
+  font-weight: 700;
+  background-color: #faa5de;
+  position: relative;
+}
+.deliveryCardImg {
+  position: absolute;
+  right: -10px;
+  bottom: -39px;
+  width: 300px;
+}
+.deliveryCardBtn {
+  background-color: #ffffff;
+  border-radius: 24px;
+  border: none;
+  height: 50px;
+  width: 100%;
+  font-size: 18px;
+  color: #fc51c3;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.deliveryCardBtn:active {
+  background-color: #fcf263;
+  color: #ffffff;
+}
+.cardsProducts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-decoration: none;
+  font-size: 25px;
+}
+.cardsProductsLink {
+  text-decoration: none;
+  color: #faa5de;
+  height: 220px;
+}
+.cardsProductsImg {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  transition: transform 0.4s;
+}
+.cardsProductsLink:hover .cardsProductsImg {
+  transform: scale(1.1);
+}
+
+.shopCards{
+  background-color: #b8e4f8;
+  color: #000000;
+  display: flex;
+  align-items: row;
+  width: 1440px;
+}
+.shopCard{
+  margin: 20px;
+}
+.shopCardImg{
+  width: 300px;
+}
